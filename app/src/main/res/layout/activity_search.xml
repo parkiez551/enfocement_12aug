@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_ui1"
+    tools:context=".Activities.search_activity">
+
+    <TextView
+        android:id="@+id/search_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:text="search vehicle"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <Button
+        android:id="@+id/search_bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="300dp"
+        android:text="search" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="200sp"
+        android:layout_marginRight="12sp"
+        android:layout_marginBottom="5sp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Vehicle number"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/search_vehicle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_curve"
+
+            android:gravity="center"
+            android:paddingLeft="25dp"
+            android:paddingTop="5dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="5dp"
+
+            android:hint="XXXXXXX"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</RelativeLayout>

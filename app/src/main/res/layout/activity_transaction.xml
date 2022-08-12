@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_ui1"
+    tools:context=".Activities.Transaction_mode_activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+
+    <RadioGroup
+        android:layout_marginTop="100dp"
+        android:id="@+id/groupradio"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- In RadioGroup create the 1 Radio Button-->
+        <!-- like this we will add some more Radio Button-->
+
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radia_id_cash"
+            android:layout_marginTop="70dp"
+            android:text="Cash"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radia_id_ol"
+            android:text="Online"
+            android:textSize="20dp"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:layout_marginLeft="150sp"
+        android:text="submit_bt" />
+
+
+</RelativeLayout>

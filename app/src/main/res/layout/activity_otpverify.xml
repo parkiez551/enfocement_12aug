@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_ui1"
+
+    tools:context=".Activities.OTPverify">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <EditText
+            android:id="@+id/edtOTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="center"
+            android:hint="Enter OTP"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+             />
+        <Button
+            android:id="@+id/verify_otp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_back"
+            android:text="Verify"
+
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
+

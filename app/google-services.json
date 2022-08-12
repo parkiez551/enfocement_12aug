@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "355593524028",
+    "project_id": "enfocement-app",
+    "storage_bucket": "enfocement-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355593524028:android:8635bac525c793b9f10439",
+        "android_client_info": {
+          "package_name": "com.example.enfocement_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355593524028-680dvrmh84magh6v44scus0pd3qar69u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5q8OkUGZmt2-1wI0vfNyKBplEGJPosaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355593524028-680dvrmh84magh6v44scus0pd3qar69u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
